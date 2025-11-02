@@ -58,16 +58,7 @@ Output:
 -- insert into Employee (id, salary) values ('3', '300')
 
 
--- select MAX(salary) from Employee;
-
-select COALESCE(salary, 10) from Employee
-where salary+5 = (
-SELECT DISTINCT salary FROM Employee
-ORDER BY salary DESC
-LIMIT 1
-OFFSET 1)
-
-
+-- Solution
 
 SELECT (
 SELECT DISTINCT salary FROM Employee
