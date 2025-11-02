@@ -1,0 +1,18 @@
+{
+    "github.copilot.enable": {
+        "*": false
+    },
+    "editor.inlineSuggest.enabled": false,
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "leetcode",
+            "database": "leetcode",
+            "username": "postgres"
+        }
+    ]
+}
