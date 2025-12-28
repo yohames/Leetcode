@@ -55,6 +55,8 @@ Output:
 -- ,('105', 'Anne', 'A', '101')
 -- ,('106', 'Ron', 'B', '101')
 
+-- Solution
+
 select * from
 employee JOIN
 (select managerid, count(managerid) from employee
